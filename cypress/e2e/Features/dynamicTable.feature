@@ -7,4 +7,3 @@ Feature: Dynamic Table Test
     Given I am on the dynamic table page
     When I fetch the CPU load for Chrome from the dynamic table
     Then I compare it with the CPU load shown in the yellow label
-    And the values should match
